@@ -1,0 +1,44 @@
+<head>
+    <title>Baby Calculator</title>
+</head>
+
+<Body>
+    <p0 style="color:blueviolet;">Baby Calculator</p0>
+    <br>
+
+    <p1 id="screen">0</p1>
+    <br>
+
+    <script src="background.js"></script>
+    
+    <button onclick="clearButton()">Clr</button>
+    <button onclick="backSpaceButton()">Bck</button>
+    <button onclick="operatorButton('/')">/</button>
+    <br>
+
+    <button onclick="numberButton('7')">7</button>
+    <button onclick="numberButton('8')">8</button>
+    <button onclick="numberButton('9')">9</button>
+    <button onclick="operatorButton('*')">x</button>
+    <br>
+
+    <button onclick="numberButton('4')">4</button>
+    <button onclick="numberButton('5')">5</button>
+    <button onclick="numberButton('6')">6</button>
+    <button onclick="operatorButton('-')">-</button>
+    <br>
+
+    <button onclick="numberButton('1')">1</button>
+    <button onclick="numberButton('2')">2</button>
+    <button onclick="numberButton('3')">3</button>
+    <button onclick="operatorButton('+')">+</button>
+    <br>
+
+    <button onclick="numberButton('0')">0</button>
+    <button onclick="numberButton('.')">.</button>
+    <button onclick="equalButton()">=</button>
+    <br>
+
+    <button onclick="window.alert(buffer)">Show buffer</button>
+    <button onclick="window.alert(currentNumber)">Show currNum</button>
+</Body>
